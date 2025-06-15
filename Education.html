@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Education - Mallisetty Krishna Sai Goud</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header, footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 0.6rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0.5rem 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00bcd4;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .container:nth-of-type(2) {
+  background-color: #f0faff;
+  border-radius: 400px;           /* Use a small positive value */
+  padding: 100rem;                /* Less padding means smaller box */
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  max-width: 400px;           /* Optional: limits container width */
+  margin: 2rem auto;           /* Optional: centers it with spacing */
+}
+
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding: 3rem 0;
+}
+
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      width: 320px;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+
+/* For certifications section images only */
+.card-row:nth-of-type(2) .card img {
+  width: 99%;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+    .card img {
+      width: 60%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 1px;
+    }
+
+    .card h3 {
+      margin: 0.8rem 0 0.4rem;
+      color: #1a1a1a;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      margin: 0.2rem 0;
+      color: #555;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #0077b6;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+          
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Education.html">Education</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Education</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="ksrm.png" alt="KSRM College" />
+        <h3>KSRM College of Engineering</h3>
+        <p>B.Tech – ECE</p>
+        <p>Aug 2020 – Apr 2024</p>
+        <p><strong>CGPA:</strong> 8.33</p>
+      </div>
+
+      <div class="card">
+        <img src="sv.jpeg" alt="SV College" />
+        <h3>SV Junior College</h3>
+        <p>Intermediate – MPC</p>
+        <p>Apr 2018 – May 2020</p>
+        <p><strong>CGPA:</strong> 9.09</p>
+      </div>
+
+      <div class="card">
+        <img src="school.jpeg" alt="Adarsha School" />
+        <h3>Adarsha High School</h3>
+        <p>SSC – 10th Grade</p>
+        <p>Jun 2017 – Mar 2018</p>
+        <p><strong>CGPA:</strong> 9.2</p>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 3rem;">Certifications</h2>
+    <div class="card-row">
+
+    <div class="card">
+        <img src="TAP.png" alt="Java Full Stack" />
+        <h3>Java Full Stack</h3>
+        <p>Tap Academy</p>
+        <a href="tap.pdf" target="_blank">View Certificate</a>
+      </div>
+      <div class="card">
+        <img src="AWS.jpeg" alt="AWS Certificate" />
+        <h3>AWS Cloud Foundation</h3>
+        <p>Amazon Web Services</p>
+        <a href="aws.pdf" target="_blank">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="AZURE.png" alt="Azure AI" />
+        <h3>Azure AI Fundamentals</h3>
+        <p>Microsoft</p>
+        <a href="azure .pdf" target="_blank">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="NASS.jpeg" alt="Cybersecurity" />
+        <h3>Cybersecurity Essentials</h3>
+        <p>NASSCOM</p>
+        <a href="nass.pdf" target="_blank">View Certificate</a>
+      </div>
+       <div class="card">
+        <img src="CISCO.jpeg" alt="Data Analytics" />
+        <h3>Fundamentals of Data Analytics</h3>
+        <p>Cisco</p>
+        <a href="cisco.pdf" target="_blank">View Certificate</a>
+      </div>
+       <div class="card">
+        <img src="NPTEL.png" alt="Cloud Computing" />
+        <h3>Cloud Foundations</h3>
+        <p>NPTEL</p>
+        <a href="NPTEL .pdf" target="_blank">View Certificate</a>
+      </div>
+      
+
+
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Mallisetty Krishna Sai Goud</p>
+  </footer>
+
+</body>
+</html>
